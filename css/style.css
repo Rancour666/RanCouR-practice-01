@@ -1,0 +1,250 @@
+
+/* &display=swap&subset=cyrillic-ext */
+
+/*Поключение Шрифтов*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,600&display=swap&subset=cyrillic-ext);
+
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+nav, footer, header {
+	display: block;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 16px;
+}
+
+
+
+
+
+/*=================ОСНОВНЫЕ ОБЩИЕ СТИЛИ=============*/
+
+.wrapper{
+	min-height: 100%;
+	overflow: auto;
+	background: #F5F5F5;
+}
+
+.container{
+	max-width: 886px;
+	margin: 0px auto;
+}
+.container-two{
+	max-width: 1079px;
+	margin: 0px auto;
+}
+
+.content{
+	padding: 0px 20px;
+}
+
+
+/*=================================================================MAIN===================================================================*/
+
+/*================CAR REPAIR=================*/
+
+.car-repair {
+	font-family: 'Roboto';
+	padding: 100px 0px 0px 0px;
+	max-width: 1079px;
+	margin: 0px auto;
+	background-color: #fff;
+	max-height: 700px;
+}
+
+
+.main-title {
+	margin: 0px 0px 27px -3px;
+}
+.main-title img{
+}
+.main-title span{
+	display: inline-block;
+	padding: 1px 0px 0px 3px;
+}
+.title-text {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #4b4b4b;
+	vertical-align: center;
+
+}
+.sub-title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #02133C;
+	max-width: 583px;
+	margin: 0px 0px 36px 0px;
+
+}
+.main-text {
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+	margin: 0px 0px 354px 0px;
+}
+.main-image img{
+	width: 100%;
+	margin: -297px 0px 110px 0px;
+}
+
+
+
+.card-block{
+	margin: 0px 0px 100px 0px;
+}
+
+
+
+.car-card {
+	max-width: 324px;
+	padding: 50px 43px 50px 44px;
+	background-color: #fff;
+	text-align: center;
+	margin: 0px 0px 24px 0px;
+}
+.card-item {
+}
+.card {
+	
+}
+.card__icon {
+	margin: 0px 0px 33px 0px;
+}
+.card__title {
+	color: #02133c;
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	margin: 0px 0px 20px 0px;
+}
+.card__text {
+	color: #4b4b4b;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
+
+
+/*===============================TECH ONLINE=======================================*/
+
+.tech-online {
+	font-family: 'Poppins';
+	font-weight: 600;
+	padding: 20px 20px;
+	background-color: #fff;
+	margin: 0px 0px 70px 0px;
+}
+
+
+.tech-online p{
+	font-weight: 300;
+	line-height: 26px;
+	margin: 0px 0px 26px 0px;
+}
+
+.tech-title {
+	font-size: 32px;
+	line-height: 48px;
+	margin: 0px 0px 26px 0px;
+}
+.tech-subtitle {
+	font-size: 24px;
+	line-height: 36px;
+	margin: 0px 0px 70px 0px;
+}
+.definitions {
+	margin: 0px 0px 26px 0px;
+}
+.paragraph-title {
+	margin: 0px 0px 26px 0px;
+	line-height: 26px;
+}
+.par-block p{
+	margin: 0px;
+}
+
+.pre-paragraph p{
+	margin: 0px 0px 26px 0px;
+}
+
+
+
+
+
+.highest-quality {
+	padding: 0px 0px 100px 0px;
+	font-family: 'Poppins';
+}
+.quality-card {
+	padding: 50px 30px 50px 40px;
+	background-color: #fff;
+	max-width: 525px;
+	margin: 0px auto;
+	box-shadow: 5px 5px 25px 10px #2c2c2cc9;
+	border-radius: 10px;
+}
+.quality-card__icon {
+	margin: 0px 0px 9px 0px;
+}
+.quality-card__title {
+	font-weight: 500;
+	margin: 0px 0px 25px 0px;
+	font-size: 44px;
+	line-height: 58px;
+	max-width: 465px;
+}
+.quality-card__text {
+	max-width: 436px;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+
+
+
+
+/*================FOOTER=================*/
